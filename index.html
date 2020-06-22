@@ -5,15 +5,16 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 	<title>Bimal's Site</title>
-	<link rel="stylesheet" href="mypage.min.css">
+	<link rel="stylesheet" href="mypage.css">
 	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
      <link rel="icon" href="favicon.ico" type="image/icon type">
 </head>
 <body>
 		    <!--Topnav section starts here-->
 		    <div class="topnav" id="myTopnav">
-		    	<a href="#home">Logo</a>
+		    	<a href="#home" class="fa fa-home"></a>
 		    	<div id="myLinks">
+		    		<a href="#home">Home</a>
 		    		<a href="#about-me">About</a>
 		    		<a href="#experience">Experience</a>
 		    		<a href="#favourites">Favourites</a>
@@ -26,7 +27,7 @@
 		    <!--Topnav section ends here-->
 
 		    <!--landing page section here-->
-			<div class="landing-page">
+			<div class="landing-page" id="home">
 				<div class="welcome-message">
 					Welcome to My <span style="font-family: 'Dancing Script',monospace;">Page</span>
 				</div>
@@ -40,7 +41,8 @@
 
             <!--Sidenav starts section here-->
 		    <div class="sidenav">
-				<a href="#about-me" class="nav-active">About</a>
+		    	<a href="#home" class="nav-active">Home</a>
+				<a href="#about-me">About</a>
 				<a href="#experience">Experiences</a>
 				<a href="#favourites">Favourites</a>
 				<a href="#contact">Contact</a>

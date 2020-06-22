@@ -425,8 +425,8 @@
 		}
 
 		.landing-page{
-			background-image: linear-gradient(to right ,rgba(163, 7, 7, 0.4),rgba(163, 7, 7, 0.4)),url('img/background-image.jpg');
-		    height: 100%;
+			  background-image: linear-gradient(to right ,rgba(163, 7, 7, 0.4),rgba(163, 7, 7, 0.4)),url('img/background-image.jpg');
+		      height: 100%;
 			  background-position: center;
 			  background-repeat: no-repeat;
 			  background-size: cover;
@@ -488,6 +488,9 @@
         	#about-me .info span{
         		font-size: 16px;
         	}
+        	#about-me .profile-overlay{
+        		font-size: 12px;
+        	}
         	.sidenav {
         		display: none;
         	}
@@ -496,6 +499,10 @@
         	}
         	#contact .social-links a{
         		font-size: 1em;
+        	}
+        	.landing-page{
+        		background-attachment: scroll;
+        		
         	}
         	 .welcome-message {
         		font-size: 50px;
@@ -514,6 +521,9 @@
         	#about-me .info span{
         		font-size: 15px;
         	}
+        	#about-me .profile-overlay{
+        		font-size: 10px;
+        	}
         	.sidenav {
         		display: none;
         	}
@@ -525,6 +535,10 @@
         	}
         	#contact .quote{
         		font-size: 1em;
+        	}
+        	.landing-page{
+        		background-attachment: scroll;
+        		
         	}
         	 .welcome-message {
         		font-size: 50px;
@@ -540,6 +554,9 @@
         	#about-me .info span{
         		font-size: 15px;
         	}
+        	#about-me .profile-overlay{
+        		font-size: 10px;
+        	}
         	.sidenav {
         		display: none;
         	}
@@ -548,6 +565,10 @@
         	}
         	#contact .social-links a{
         		font-size: 1em;
+        	}
+        	.landing-page{
+        		background-attachment: scroll;
+        		
         	}
         	.landing-page .welcome-message {
         		font-size: 50px;
@@ -575,11 +596,18 @@
         	#about-me .info span{
         		font-size: 15px;
         	}
+        	#about-me .profile-overlay{
+        		font-size: 10px;
+        	}
         	.sidenav {
         		display: none;
         	}
         	.topnav{
         		display: block;
+        	}
+        	.landing-page{
+        		background-attachment: scroll;
+
         	}
         	.landing-page .welcome-message {
         		font-size: 50px;
