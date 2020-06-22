@@ -510,6 +510,13 @@
         	.down-icon {
         		right: 40%;
         	}
+        	#favourites .favourites-gallery .item:hover .overlay .download {
+			    padding: 2px;
+            	font-size: 8px;
+            	font-weight: 400;
+			    
+			   
+			}
 
         }
 
@@ -546,6 +553,13 @@
         	.down-icon {
         		right: 40%;
         	}
+        	#favourites .favourites-gallery .item:hover .overlay .download {
+			    padding: 2px;
+            	font-size: 8px;
+            	font-weight: 400;
+			    
+			   
+			}
         }
          @media screen and (max-width: 360px) {
         	#experience .informations {
@@ -577,14 +591,11 @@
         		right: 40%;
         	}
         	#favourites .favourites-gallery .item:hover .overlay .download {
+			    padding: 2px;
+            	font-size: 6px;
+            	font-weight: 400;
 			    
-			    
-			    padding: 10px;
-			    text-decoration: none;
-			    border-radius: 5px;
-			    font-size: 10px;
-			    font-weight: 400;
-			    letter-spacing: 2px;
+			   
 			}
 			
         	
@@ -615,4 +626,15 @@
         	.down-icon {
         		right: 40%;
         	}
-    }
+        	#favourites .favourites-gallery .item .middle .name {
+        		font-size: 8px;
+
+        	}
+        	#favourites .favourites-gallery .item .middle .profile{
+        		font-size: 8px;
+            }
+            #favourites .favourites-gallery .item:hover .overlay .download {
+            	padding: 2px;
+            	font-size: 8px;
+            	font-weight: 400;
+            }

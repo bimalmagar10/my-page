@@ -52,5 +52,3 @@ for(i=0;i < navButtons.length;i++){
 });
 }
 
-
-

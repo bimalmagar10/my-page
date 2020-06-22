@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 	<title>Bimal's Site</title>
-	<link rel="stylesheet" href="mypage.css">
+	<link rel="stylesheet" href="mypage.min.css">
 	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
      <link rel="icon" href="favicon.ico" type="image/icon type">
 </head>
@@ -247,13 +247,13 @@
 				   				<div data-id="series" class="item">
 				   					<img src="./img/favourites/wwwsk.jpg" alt="favouite-4">
 				   					<div class="overlay">
-				   						<a href="https://kissasian.sh/Drama/What-s-Wrong-With-Secretary-Kim" class="download" target="_blank">Watch Now</a>
+				   						<a href="https://kissasian.sh/Drama/What-s-Wrong-With-Secretary-Kim" class="download" target="_blank">Watch</a>
 				   					</div>
 				   				</div>
 				   				<div data-id="series" class="item">
 				   					<img src="./img/favourites/legend-of-blue-sea.jpg" alt="favouite-4">
 				   					<div class="overlay">
-				   						<a href="https://kissasian.sh/Drama/Legend-of-the-Blue-Sea" class="download" target="_blank">Watch Now</a>
+				   						<a href="https://kissasian.sh/Drama/Legend-of-the-Blue-Sea" class="download" target="_blank">Watch</a>
 				   					</div>
 				   				</div>
 				   				<div data-id="celebs" class="item">
@@ -316,6 +316,20 @@
 	    </section>
 	  <!--Contact section ends here-->
 	  <script src="script.js"></script>
+	  <script>
+	  	 //audio test for small viewport mobile devices
+	  	if (window.matchMedia("(max-width: 360px)" || "(max-width:320px)" || "(max-width:375px)" || "(max-width:414px)").matches)
+	  	{
+	  		var audio = document.getElementsByTagName("audio");
+	  		console.log(audio.length);
+	  		for (var i = 0; i < audio.length; i++) {
+	  			audio[i].style.width="100px";
+		  	    audio[i].style.height ="20px";
+		  	    audio[i].controlsList="nodownload";
+	  		}
+		  
+	  	} 
+	  </script>
 	 
 
 
